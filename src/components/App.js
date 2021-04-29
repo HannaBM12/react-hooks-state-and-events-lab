@@ -4,7 +4,7 @@ import itemData from "../data/items";
 
 function App() {
   const [items, setItems] = useState(itemData);
-  const [isDark, setIsDark] = useState(true)
+  const [isDark, setIsDark] = useState(false)
 
   function handelClick(){
     setIsDark(!isDark)
